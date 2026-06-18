@@ -2,6 +2,20 @@ import useScrollReveal from '../hooks/useScrollReveal';
 
 const experiences = [
     {
+        role: 'Senior Software Engineer',
+        company: 'Hyperlink Infosystem',
+        location: 'Dubai, UAE',
+        duration: 'March 2026 – Present',
+        bullets: [
+            'Built backend microservices across a multi-language platform — Kotlin/Quarkus services (core-apis, core-flows) and a .NET 8 / C# payment orchestration service — for UAE Direct Debit and IRIS Money wallet & card  transfers, integrating with the UAE Central Bank Direct Debit System.',
+            'Designed durable, fault-tolerant payment workflows using Temporal (Kotlin & .NET SDKs), with per-step retry policies and idempotency guards that prevent double-debits on ambiguous failures, improving payment reliability and recoverability.',
+            'Refactored duplicated workflows into a shared, composition-based engine (SOLID/DRY), cutting  lines of code and easing new-transfer onboarding; routed payments via Strategy/Factory',
+            'Used Claude Code (AI-assisted dev) for design reviews, large-scale refactoring, and fast ramp-up on .NET — accelerating delivery without sacrificing code quality.',
+            'Developed Kotlin/Quarkus REST services (JAX-RS, MicroProfile OpenAPI) and shared libraries (core-libs), deployed on Azure with APIs managed through Azure API Management (APIM) and event-driven processing via Azure Service Bus.'
+        ],
+        tech: ['Java', 'Kotlin', 'Quarkus', 'Temporal', 'Docker', 'K8s', 'Azure', 'REST API', 'Swagger / OpenAPI'],
+    },
+    {
         role: 'Senior Application Developer',
         company: 'United Parcel Service (UPS)',
         location: 'Chennai',
